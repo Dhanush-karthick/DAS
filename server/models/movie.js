@@ -5,7 +5,8 @@ const MovieSchema = new mongoose.Schema({
   releaseDate: { type: Date, required: true },
   poster: { type: String, required: true },
   rating: { type: String, default: "No rating" },
-  reviews: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Review' }]
+  reviews: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Review' }],
+  director:{type:String,required:true}
 });
 
 module.exports = mongoose.model('Movie', MovieSchema);
