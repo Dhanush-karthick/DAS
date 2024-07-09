@@ -1,0 +1,103 @@
+.App {
+  background-image: url('./background2.jpg');
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.App-header {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: white; /* Text color for header */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav {
+  background-color: #000; /* Black background for navigation */
+  opacity: 0.8;
+}
+
+#navText {
+  color: #ffd700; /* Yellow text color */
+}
+
+#basic-nav-dropdown {
+  color: #ffd700; /* Yellow text color */
+}
+
+#footer {
+  background-color: #000; /* Black background for footer */
+}
+
+.movieTitle {
+  color: #000; /* Black title color for movie cards */
+  line-height: normal;
+}
+
+#smallText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movieText {
+  color: #ffd700; /* Yellow text color for movie descriptions */
+  font-size: 14px !important;
+}
+
+.movieCard {
+  background-color: #000; /* Black background for movie cards */
+  opacity: 0.8;
+  float: left; /* Allow movie cards to float */
+  margin: 10px; /* Add margin for spacing between cards */
+}
+
+.movieList {
+  display: flex;
+  justify-content: space-around;
+}
+
+#cardSpacing {
+  display: flex;
+  justify-content: space-around;
+}
+
+#genreBadges {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviewList {
+  height: 25%;
+  overflow-y: scroll;
+}
+
+#renderedReviews {
+  overflow: scroll;
+  height: 300px;
+  text-align: left;
+}
+
+.no-movies-message {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8d7da; /* Example: Light red background */
+  border: 1px solid #f5c6cb; /* Example: Red border */
+  border-radius: 5px;
+}
+
+.no-movies-message h3 {
+  color: #721c24; /* Example: Dark red text */
+}
+
+.no-movies-message p {
+  color: #721c24; /* Example: Dark red text */
+}

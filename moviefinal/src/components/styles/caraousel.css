@@ -1,0 +1,29 @@
+/* carousel.css */
+.custom-carousel .carousel-control-prev-icon,
+.custom-carousel .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.custom-carousel .carousel-control-prev-icon:hover,
+.custom-carousel .carousel-control-next-icon:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.custom-carousel .carousel-control-prev,
+.custom-carousel .carousel-control-next {
+  width: 5%;
+}
+
+
+
+
+.custom-carousel .carousel-indicators li {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.custom-carousel .carousel-indicators .active {
+  background-color: rgba(0, 0, 0, 0.9);
+}
