@@ -1,0 +1,400 @@
+[{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a4037f"
+  },
+  "title": "The Shawshank Redemption",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+  "rating": 4.9,
+  "releaseDate": "1994",
+  "director": "Frank Darabont"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40380"
+  },
+  "title": "The Godfather",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+  "rating": 4.8,
+  "releaseDate": "1972",
+  "director": "Francis Ford Coppola"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40381"
+  },
+  "title": "The Dark Knight",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+  "rating": 4.7,
+  "releaseDate": "2008",
+  "director": "Christopher Nolan"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40382"
+  },
+  "title": "Pulp Fiction",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8Xpm9E0ePIWZP0OSXhWxEleCD7d.jpg",
+  "rating": 4.6,
+  "releaseDate": "1994",
+  "director": "Quentin Tarantino"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40383"
+  },
+  "title": "Schindler's List",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rKePA1655YWWOTSkyQuu8e84xi0.jpg",
+  "rating": 4.9,
+  "releaseDate": "1993",
+  "director": "Steven Spielberg"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40384"
+  },
+  "title": "Inception",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
+  "rating": 4.7,
+  "releaseDate": "2010",
+  "director": "Christopher Nolan"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40385"
+  },
+  "title": "Fight Club",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+  "rating": 4.7,
+  "releaseDate": "1999",
+  "director": "David Fincher"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40386"
+  },
+  "title": "Forrest Gump",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+  "rating": 4.8,
+  "releaseDate": "1994",
+  "director": "Robert Zemeckis"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40387"
+  },
+  "title": "The Matrix",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+  "rating": 4.7,
+  "releaseDate": "1999",
+  "director": "The Wachowskis"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40388"
+  },
+  "title": "The Lord of the Rings: The Return of the King",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+  "rating": 4.9,
+  "releaseDate": "2003",
+  "director": "Peter Jackson"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40389"
+  },
+  "title": "The Empire Strikes Back",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg",
+  "rating": 4.8,
+  "releaseDate": "1980",
+  "director": "Irvin Kershner"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a4038a"
+  },
+  "title": "Gladiator",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+  "rating": 4.6,
+  "releaseDate": "2000",
+  "director": "Ridley Scott"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a4038b"
+  },
+  "title": "The Green Mile",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg",
+  "rating": 4.8,
+  "releaseDate": "1999",
+  "director": "Frank Darabont"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a4038c"
+  },
+  "title": "Interstellar",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+  "rating": 4.7,
+  "releaseDate": "2014",
+  "director": "Christopher Nolan"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a4038d"
+  },
+  "title": "Braveheart",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/or1gBugydmjToAEq7OZY0owwFk.jpg",
+  "rating": 4.6,
+  "releaseDate": "1995",
+  "director": "Mel Gibson"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a4038e"
+  },
+  "title": "The Lion King",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg",
+  "rating": 4.8,
+  "releaseDate": "1994",
+  "director": "Roger Allers, Rob Minkoff"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a4038f"
+  },
+  "title": "Saving Private Ryan",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
+  "rating": 4.8,
+  "releaseDate": "1998",
+  "director": "Steven Spielberg"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40390"
+  },
+  "title": "The Silence of the Lambs",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+  "rating": 3.7,
+  "releaseDate": "1991",
+  "director": "Jonathan Demme"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40391"
+  },
+  "title": "Anyone but You",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5qHoazZiaLe7oFBok7XlUhg96f2.jpg",
+  "rating": 3.6,
+  "releaseDate": "2024",
+  "director": "Joss Whedon"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40392"
+  },
+  "title": "Jurassic Park",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8nSi7W1pG1KgqHS9kp3EsGoeKtA.jpg",
+  "rating": 4.6,
+  "releaseDate": "1993",
+  "director": "Steven Spielberg"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40393"
+  },
+  "title": "Titanic",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/As0zX43h3w6kD2NS4uVHu9HKdEh.jpg",
+  "rating": 4.5,
+  "releaseDate": "1997",
+  "director": "James Cameron"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40394"
+  },
+  "title": "Avatar",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kyeqWdyUXW608qlYkRqosgbbJyK.jpg",
+  "rating": 4.4,
+  "releaseDate": "2009",
+  "director": "James Cameron"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40395"
+  },
+  "title": "The Departed",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+  "rating": 4.5,
+  "releaseDate": "2006",
+  "director": "Martin Scorsese"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40396"
+  },
+  "title": "The Intouchables",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/323BP0itpxTsO0skTwdnVmf7YC9.jpg",
+  "rating": 4.6,
+  "releaseDate": "2011",
+  "director": "Olivier Nakache, Éric Toledano"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40397"
+  },
+  "title": "The Sixth Sense",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mBvRmdFseqMdSMCpmy6AC0Ymn2.jpg",
+  "rating": 4.5,
+  "releaseDate": "1999",
+  "director": "M. Night Shyamalan"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40398"
+  },
+  "title": "The Prestige",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tRNlZbgNCNOpLpbPEz5L8G8A0JN.jpg",
+  "rating": 4.7,
+  "releaseDate": "2006",
+  "director": "Christopher Nolan"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a40399"
+  },
+  "title": "American History X",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/euypWkaYFOLW3e5rLIcTAjWnhhT.jpg",
+  "rating": 4.4,
+  "releaseDate": "1998",
+  "director": "Tony Kaye"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a4039a"
+  },
+  "title": "Glory",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tubPIJJah9iJ9eDHXxaxjLdOcQd.jpg",
+  "rating": 4.5,
+  "releaseDate": "1989",
+  "director": "Edward Zwick"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a4039b"
+  },
+  "title": "The Pursuit of Happyness",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lBYOKAMcxIvuk9s9hMuecB9dPBV.jpg",
+  "rating": 4.4,
+  "releaseDate": "2006",
+  "director": "Gabriele Muccino"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a4039c"
+  },
+  "title": "A Beautiful Mind",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/26uu1IKOs81D7Pfz1iC9FgrwAk9.jpg",
+  "rating": 4.6,
+  "releaseDate": "2001",
+  "director": "Ron Howard"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a4039d"
+  },
+  "title": "Life Is Beautiful",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/74hLDKjD5aGYOotO6esUVaeISa2.jpg",
+  "rating": 4.8,
+  "releaseDate": "1997",
+  "director": "Roberto Benigni"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a4039e"
+  },
+  "title": "The Usual Suspects",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8dH7y4O26uLPesxUTT80igEtsBM.jpg",
+  "rating": 4.5,
+  "releaseDate": "1995",
+  "director": "Bryan Singer"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a4039f"
+  },
+  "title": "The Pianist",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg",
+  "rating": 4.7,
+  "releaseDate": "2002",
+  "director": "Roman Polanski"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a403a0"
+  },
+  "title": "The Grand Budapest Hotel",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+  "rating": 4.6,
+  "releaseDate": "2014",
+  "director": "Wes Anderson"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a403a1"
+  },
+  "title": "The Open House",
+  "poster": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/7JwdoLcbFWaeUBxKaoFulRVK8Ja.jpg",
+  "rating": 2.4,
+  "releaseDate": "2012",
+  "director": "Saathik Baasha"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a403a2"
+  },
+  "title": "RRR",
+  "poster": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/u0XUBNQWlOvrh0Gd97ARGpIkL0.jpg",
+  "rating": 3.5,
+  "releaseDate": "2023",
+  "director": "S.S. Rajamouli"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a403a3"
+  },
+  "title": "Brahmastra",
+  "poster": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/x61qdvHIsr9U53FwoLVDQqAGur0.jpg",
+  "rating": 2.3,
+  "releaseDate": "2023",
+  "director": "Ayan Mukerji"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a403a4"
+  },
+  "title": "Pathaan",
+  "poster": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/arf00BkwvXo0CFKbaD9OpqdE4Nu.jpg",
+  "rating": 2.4,
+  "releaseDate": "2023",
+  "director": "Siddharth Anand"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a403a5"
+  },
+  "title": "Pushpa: The Rise",
+  "poster": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/kKDnGklCDRK8hrFGH4pLr7ZDA33.jpg",
+  "rating": 2.2,
+  "releaseDate": "2023",
+  "director": "Sukumar"
+},
+{
+  "_id": {
+    "$oid": "668e5b7aa3f07dcc58a403a6"
+  },
+  "title": "Laal Singh Chaddha",
+  "poster": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/qqBB1tAi345mXMhLwLJpd7LWLRP.jpg",
+  "rating": 3.6,
+  "releaseDate": "2023",
+  "director": "Advait Chandan"
+}]
