@@ -35,7 +35,7 @@ exports.createMovie = async (req, res) => {
 
 exports.getTopRatedMovies = async (req, res) => {
   try {
-    const movies = await Movie.find().sort({ rating: -1 });
+    const movies = await Movie.find().sort({ rating: -1 }).limit(10);
     res.json(movies);
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -44,7 +44,7 @@ exports.getTopRatedMovies = async (req, res) => {
 
 exports.getLowestRatedMovies = async (req, res) => {
   try {
-    const movies = await Movie.find().sort({ rating: 1 });
+    const movies = await Movie.find().sort({ rating: 1 }).limit(10);
     res.json(movies);
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -53,7 +53,7 @@ exports.getLowestRatedMovies = async (req, res) => {
 
 exports.getMostRecentMovies = async (req, res) => {
   try {
-    const movies = await Movie.find().sort({ releaseDate: -1 });
+    const movies = await Movie.find().sort({ releaseDate: -1 }).limit(10);
     res.json(movies);
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -62,7 +62,7 @@ exports.getMostRecentMovies = async (req, res) => {
 
 exports.getOldestMovies = async (req, res) => {
   try {
-    const movies = await Movie.find().sort({releaseDate:1});
+    const movies = await Movie.find().sort({releaseDate:1}).limit(10);
     res.json(movies);
   } catch (err) {
     res.status(500).json({ error: err.message });
