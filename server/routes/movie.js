@@ -11,7 +11,7 @@ const {
 
 const router = express.Router();
 
-router.get('/', getAllMovies);
+router.get('/all', getAllMovies);
 router.post('/', createMovie);
 router.get('/top-rated', getTopRatedMovies);
 router.get('/lowest-rated', getLowestRatedMovies);

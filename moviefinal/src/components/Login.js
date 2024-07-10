@@ -10,24 +10,24 @@ function Login() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    
-    // Example API request to handle login
+
     try {
-      const response = await fetch('https://your-api-endpoint.com/login', {
+      const response = await fetch('http://localhost:8000/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ email, password }),
       });
-      
+
       const data = await response.json();
-      
+
       if (response.ok) {
         // Handle successful login
         setSuccess('Login successful!');
-        // Optionally, redirect to another page
-        // window.location.href = '/dashboard';
+        localStorage.setItem('token', data.token); // Store the token
+        // Redirect to another page, e.g., the dashboard
+        window.location.href = '/';
       } else {
         // Handle errors
         setError(data.message || 'An error occurred during login');

@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import MovieList from './components/MovieList';
 import Footer from './components/Footer';
 import Login from './components/Login'; // Import your Login component
+import Signup from './components/Signup'; // Import your Signup component
 import { useState } from 'react';
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
             </>
           } />
           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
       </div>
     </Router>

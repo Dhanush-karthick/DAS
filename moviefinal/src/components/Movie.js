@@ -11,7 +11,7 @@ export default class Movie extends React.Component {
       title: props.title,
       releaseDate: props.releaseDate,
       director: props.director,
-      image: props.image,
+      poster: props.poster,
       rating: props.rating // Add rating to the state
     };
   }
@@ -19,7 +19,7 @@ export default class Movie extends React.Component {
   render() {
     return (
       <Card className='movieCard' style={{ width: '18rem' }}>
-        <Card.Img className="moviePoster" variant="top" src={this.state.image} />
+        <Card.Img className="moviePoster" variant="top" src={this.state.poster}  />
         <Card.Body>
           <Card.Text className="movieTitle">{this.state.title}</Card.Text>
           <Card.Subtitle className="mb-2 text-muted">

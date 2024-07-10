@@ -17,6 +17,14 @@ connectDB();
 
 app.use(express.json());
 
+//cors
+app.use(cors({
+    origin: [
+        "http://localhost:3000"
+    ],
+    credentials: true
+}));
+
 // Routes
 app.use('/api/auth', userRoutes);
 app.use('/api/movies', movieRoutes);

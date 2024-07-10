@@ -1,5 +1,5 @@
 // src/data/movieData.js
-const movies = [
+export const moviesData = [
     {
         id: 1,
         title: "Nope",
@@ -163,4 +163,4 @@ const movies = [
     // ... (rest of the movie data)
 ];
 
-export default movies;
+export default moviesData;
