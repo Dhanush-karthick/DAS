@@ -28,21 +28,27 @@ function MovieList({ searchQuery, filterRating, filterCategory }) {
     switch (filterCategory) {
       case 'All movies':
         setSort("all");
+        setMovies([]);
         break;
       case 'highestRated':
-        setSort("all");
+        setSort("top-rated");
+        setMovies([]);
         break;
       case 'lowestRated':
         setSort("lowest-rated");
+        setMovies([]);
         break;
       case 'mostRecent':
         setSort("most-recent");
+        setMovies([]);
         break;
       case 'oldest':
         setSort("oldest");
+        setMovies([]);
         break;
       default:
         setSort("all");
+        setMovies([]);
         break;
     }
   }, [filterCategory]);
@@ -55,16 +61,16 @@ function MovieList({ searchQuery, filterRating, filterCategory }) {
         accept: 'application/json',
       },
     };
+    
     try {
+      console.log('Request URL:', options.url); // Log the URL
       const response = await axios.request(options);
       return response.data;
     } catch (err) {
-      console.log(err);
+      console.error('Error fetching movies:', err); // Log the error
       return [];
     }
   };
-
-  
 
   if (loading) {
     return <div>Loading...</div>;
@@ -81,7 +87,7 @@ function MovieList({ searchQuery, filterRating, filterCategory }) {
         <NoMoviesMessage />
       ) : (
         <MDBRow className='row-cols-1 row-cols-md-3 g-4' id="cardSpacing">
-          {movies.map((movie, index) => (
+          {filteredMovies.map((movie, index) => (
             <Movie key={index} {...movie} />
           ))}
         </MDBRow>

@@ -17,5 +17,5 @@ router.get('/top-rated', getTopRatedMovies);
 router.get('/lowest-rated', getLowestRatedMovies);
 router.get('/most-recent', getMostRecentMovies);
 router.get('/oldest', getOldestMovies);
-router.get('/:id', getMovieById);
+
 module.exports = router;
