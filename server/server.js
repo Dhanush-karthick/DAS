@@ -20,7 +20,7 @@ app.use(express.json());
 //cors
 app.use(cors({
     origin: [
-        "http://localhost:3000"
+        "https://das-client.onrender.com"
     ],
     credentials: true
 }));
