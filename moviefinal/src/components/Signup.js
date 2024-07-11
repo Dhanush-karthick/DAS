@@ -34,7 +34,7 @@ function Signup() {
         // Handle successful signup
         setSuccess('Signup successful!');
         // Optionally, redirect to another page
-        window.location.href = 'api/auth/login';
+        window.location.href = '/login';
       } else {
         // Handle errors
         setError(data.message || 'An error occurred during signup');
