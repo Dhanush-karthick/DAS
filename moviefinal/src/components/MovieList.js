@@ -56,7 +56,7 @@ function MovieList({ searchQuery, filterRating, filterCategory }) {
   const getMovie = async () => {
     const options = {
       method: 'GET',
-      url: `http://localhost:8000/api/movies/${sort}`,
+      url: `https://das-server-s7sb.onrender.com/api/movies/${sort}`,
       headers: {
         accept: 'application/json',
       },

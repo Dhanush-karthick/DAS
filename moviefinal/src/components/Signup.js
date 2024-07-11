@@ -20,7 +20,7 @@ function Signup() {
 
     // Example API request to handle signup
     try {
-      const response = await fetch('http://localhost:8000/api/auth/signup', {
+      const response = await fetch('https://das-server-s7sb.onrender.com/api/auth/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
