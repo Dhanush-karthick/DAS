@@ -73,7 +73,8 @@ function MovieList({ searchQuery, filterRating, filterCategory }) {
   };
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div style={{ color: "black" ,fontSize:"30px"}}>Loading...</div>;
+
   }
 
   let filteredMovies = movies.filter(movie =>
