@@ -38,7 +38,7 @@ function Navigation({ onSearch, onFilterRating, onFilterCategory }) {
             width="30"
             height="30"
             className="d-inline-block align-top"
-          />{' '}Dhanush
+          />{' '}DAS & co.
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
